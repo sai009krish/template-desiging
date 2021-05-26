@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tempalte 1</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .hero {
+            width: 100vw;
+            height: 100vh;
+            background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(207, 214, 28, 1) 48%, rgba(255, 240, 0, 0.9948354341736695) 100%);
+
+        }
+         
+
+
+         .center-content{
+            max-width: 80%;
+            margin: auto;
+         }
+        .hero-container {         
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .left p {
+            margin-bottom: 20px;
+        }
+
+        .left h2 {
+            margin-bottom: 15px;
+        }
+
+        .left button {
+            padding: 5px 20px;
+            border-radius: 10px;
+            border: none;
+        }
+
+        .right img {
+            text-align: right;
+        }
+        .info-container{
+            padding: 60px 20px;
+        }
+        .info-container h2{
+                 margin-bottom: 15px;
+        }
+        .products .product{
+            background-image: url('images/hp.png');
+            background-repeat: no-repeat;
+            background-position: top center;
+            background-size: 200px 200px;
+            width: 30%;
+            height: 300px;
+            position: relative;
+            box-shadow: 0 0 4px black;
+        }
+        .products .product button{
+            padding:10px 20px;
+            border-radius: 15px;
+            background:#d6951c;
+            position: absolute;
+            left: 20px;
+            top: 40px;
+            border: none;
+
+        }
+        .products .product .description{
+            background:#d6951c;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .products .product .description p{
+           color: white;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="hero">
+        <div class="hero-container    center-content">
+            <div class="left">
+                <p>THINKING OF BUYING A HEADPHONE? </p>
+                <h2> HTML Business </br> Templates </h2>
+                <button> click me </button>
+            </div>
+            <div class="right">
+                <img src="headphone.png" alt="">
+            </div>
+          
+        </div>
+    </div> <!--  hero end -->
+
+
+    <section class="info">
+        <div class="center-content info-container">
+              <h2> Find a quality and right headphone not easy</h2>
+              <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                   when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                   It has survived not only five centuries, but also the leap into electronic typesetting, 
+                   remaining essentially unchanged. I
+           </p>
+        </div>
+    </section>
+    <section style="padding: 30px;background-color: #d6951c;">
+        <h3 style="text-align: center;color: white;">  BUNESS THML Template FREE DOWNLOAD </h3>
+    </section>
+    <section style="padding:150px 0;">
+        <div class="center-content products">
+           <div class="product">
+               <button>click me </button>
+               <div class="description">
+                   <h4>jkdjfkdjk</h4>
+                   <p>kdjfklsadjkfdj</p>
+               </div>
+           </div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+         .container{
+             width: 100vw;
+             height: 100vh;
+             background-color: yellow;
+             display: flex;
+             /* align-items: center; */
+             padding: 50px;
+             justify-content: space-around;
+         }
+         .child1 {
+             /* border: 1px solid red; */
+             flex:1;
+             display: flex;
+             justify-content: center;
+             align-items: flex-start;
+             flex-direction: column;
+             padding-left: 30px;
+             
+         }
+         .child2 {
+             /* border: 1px solid orangered; */
+             flex:1;
+             height: 400px;
+             background-image: url(headphone.png);
+             background-size: 400px 400px; 
+             background-repeat: no-repeat;
+             background-position:  center;            
+
+         }
+         .child1 p {
+             margin-bottom:20px ;
+         }
+         .child1 h2 {
+             margin-bottom:20px ;
+         }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+       <div class="child1">
+         <p>THINKING OF BUYING A HEADPHONE? </p>
+         <h2> HTML Business </br> Templates </h2>
+         <button> click me </button>
+       </div>
+
+       <div class="child2">         
+       </div>
+
+    </div>
+</body>
+</html>
